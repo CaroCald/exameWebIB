@@ -1,5 +1,7 @@
-import {Body, Controller, Get, Param, Post, Put, Query, Req, Res} from "@nestjs/common";
+import {Body, Controller, Get, Param, Post, Put, Query, Req, Res, UsePipes} from "@nestjs/common";
 import {Paciente, PacienteService} from "./paciente.service";
+import {PACIENTE_SCHEMA} from "./paciente.schema";
+import {PipePacientes} from "../pipes/pipes";
 
 @Controller('Usuario')
 export class PacienteController {
@@ -10,10 +12,30 @@ export class PacienteController {
         return this._pacienteService.arregloPacientes;
     }
 
+    @UsePipes(new PipePacientes(PACIENTE_SCHEMA))
     @Post()
-    crearPacientes(@Body() bodyParams, @Res() res){
-        const paciente = new  Paciente(bodyParams.idPaciente, bodyParams.nombre, bodyParams.apellido, bodyParams.fechaNacimiento, bodyParams.hijos, bodyParams.tieneSeguro);
-        return res.send(this._pacienteService.crearPaciente(paciente));
+    crearPacientes(@Body() bodyParams, @Res() res, @Res() req){
+        const enviaId= bodyParams.idPaciente;
+        const enviaNombre= bodyParams.nombre;
+        const eniaApellido= bodyParams.apellido;
+        const enviaFecha= bodyParams.fechaNacimiento;
+        const enviaHijos= bodyParams.hijos;
+        const enviaSeguro= bodyParams.tieneSeguro;
+
+        const enviaParametros =(enviaId && enviaNombre && eniaApellido && enviaFecha && enviaHijos && enviaSeguro);
+        if(enviaParametros){
+            const paciente = new  Paciente(bodyParams.idPaciente, bodyParams.nombre, bodyParams.apellido, bodyParams.fechaNacimiento, bodyParams.hijos, bodyParams.tieneSeguro);
+            return res.send(this._pacienteService.crearPaciente(paciente));
+        }else{
+            return res
+                .status(400)
+                .send({
+                    mensaje: 'No envia parametros',
+                    status: 400
+                })
+        }
+
+
 
     }
 

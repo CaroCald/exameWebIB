@@ -2,7 +2,7 @@ import {ArgumentMetadata, BadRequestException, Injectable, PipeTransform} from '
 import * as Joi from 'joi';
 import {PeticionInvalidaException} from "../exceptions/peticion-invalida.exception";
 @Injectable()
-export class UsuarioPipe implements PipeTransform {
+export class PipePacientes implements PipeTransform {
     constructor(private readonly schema) {}
     transform(
         valorEnBrutoDelRequest: any,
