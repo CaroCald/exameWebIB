@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f4c714-5e4f-4b8d-81f7-7634f822e3b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/project/src/paciente/paciente.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/paciente/paciente.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/pipes/pipes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pipes/pipes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app.module.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,36 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="paciente.controller.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/paciente/paciente.controller.ts">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="autorizacion.controller.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/autorizacion.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="26" column="176" selection-start-line="26" selection-start-column="176" selection-end-line="26" selection-end-column="176" />
-              <folding>
-                <element signature="e#0#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paciente.schema.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/paciente/paciente.schema.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipes.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/pipes/pipes.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#96#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="233">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -53,8 +31,8 @@
       <file leaf-file-name="peticion-invalida.exception.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/src/exceptions/peticion-invalida.exception.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="260">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -62,8 +40,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="208">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -97,13 +75,14 @@
       <list>
         <option value="$PROJECT_DIR$/project/src/usuario.controller.ts" />
         <option value="$PROJECT_DIR$/project/src/usuario.service.ts" />
-        <option value="$PROJECT_DIR$/project/src/app.module.ts" />
         <option value="$PROJECT_DIR$/project/src/paciente.controller.ts" />
         <option value="$PROJECT_DIR$/project/src/paciente.service.ts" />
         <option value="$PROJECT_DIR$/project/src/paciente/paciente.schema.ts" />
-        <option value="$PROJECT_DIR$/project/src/exceptions/peticion-invalida.exception.ts" />
         <option value="$PROJECT_DIR$/project/src/pipes/pipes.ts" />
         <option value="$PROJECT_DIR$/project/src/paciente/paciente.controller.ts" />
+        <option value="$PROJECT_DIR$/project/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/project/src/exceptions/peticion-invalida.exception.ts" />
+        <option value="$PROJECT_DIR$/project/src/autorizacion.controller.ts" />
       </list>
     </option>
   </component>
@@ -121,8 +100,8 @@
       <path value="$PROJECT_DIR$/project/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -132,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,11 +147,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examenJavascript" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="C:\Users\Carolina\Documents\GitHub\exameWebIB\project\node_modules\prettier" />
@@ -212,17 +191,17 @@
       <updated>1527869167895</updated>
       <workItem from="1527869177862" duration="1004000" />
       <workItem from="1527872140441" duration="10757000" />
+      <workItem from="1528035839074" duration="3337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13014000" />
+    <option name="totallyTimeSpent" value="20677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -230,7 +209,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41960183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32312405" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -249,22 +228,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/project/src/paciente/paciente.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="754">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/paciente.service.ts" />
-    <entry file="file://$PROJECT_DIR$/project/src/paciente.controller.ts" />
     <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="156">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -278,13 +252,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/exceptions/peticion-invalida.exception.ts">
+    <entry file="file://$PROJECT_DIR$/project/src/autorizacion.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/paciente.service.ts" />
+    <entry file="file://$PROJECT_DIR$/project/src/paciente.controller.ts" />
     <entry file="file://$PROJECT_DIR$/project/src/paciente/paciente.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -302,13 +288,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/paciente/paciente.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/exceptions/peticion-invalida.exception.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/paciente/paciente.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" column="176" selection-start-line="26" selection-start-column="176" selection-end-line="26" selection-end-column="176" />
-          <folding>
-            <element signature="e#0#104#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="676">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/autorizacion.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
